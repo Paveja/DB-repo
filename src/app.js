@@ -17,6 +17,14 @@ app.set("view engine", "ejs");
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: false }));
 
+// health endpoint
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "UP",
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // routes
 app.use(customerRoutes);
 
