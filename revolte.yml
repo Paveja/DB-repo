@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
   project: test project
-  appName: New app
+  appName: hbkjio
   config:
     codeReview:
       summarize: true
@@ -44,7 +44,7 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: mysql
+            engine: postgres
     qa:
       branch: main
       codeReview: true
@@ -76,7 +76,7 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: mysql
+            engine: postgres
     production:
       branch: main
       codeReview: true
@@ -120,7 +120,7 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: mysql
+            engine: postgres
     preview:
       codeReview: true
       testSuite: true
@@ -151,4 +151,4 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: mysql
+            engine: postgres
