@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: test project
-  appName: hbkjio
+  project: test proj
+  appName: be with db
   config:
     codeReview:
       summarize: true
